@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainTabbarController.swift
 //  Weather
 //
 //  Created by Eduard Minasyan on 24.09.23.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class MainTabbarController: UITabBarController {
+    private let defaultIndex = 1
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        selectedIndex = defaultIndex
     }
 
-
 }
-
